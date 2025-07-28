@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SarkariRe",
+    "slug": "sarkarire",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "sdkVersion": "53.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb0b74d7-2241-4a02-ad3b-69f435a0b6e6"
+      }
+    },
+    "android": {
+      "package": "com.harshit56.sarkarire"
+    }
+  }
+}

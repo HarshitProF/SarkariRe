@@ -3,9 +3,9 @@ import { View, Text, StyleSheet, ScrollView, Image, useColorScheme } from 'react
 import { useTheme } from '@react-navigation/native';
 import Constants from 'expo-constants';
 
-import InfoTile from '../components/InfoTile';
-import LinkButton from '../components/LinkButton';
-import { colors } from '../theme/colors';
+import InfoTile from '@components/InfoTile';
+import LinkButton from '@components/LinkButton';
+import { colors } from '@theme/colors';
 
 // Home screen component that serves as the landing page of the app
 const HomeScreen = ({ navigation }) => {

@@ -3,8 +3,8 @@ import { View, FlatList, StyleSheet, ActivityIndicator } from 'react-native';
 import { useTheme } from '@react-navigation/native';
 import PropTypes from 'prop-types';
 
-import JobCard from '../components/JobCard';
-import { useJobs } from '../context/JobContext';
+import JobCard from '@components/JobCard';
+import { useJobs } from '@context/JobContext';
 
 // Jobs screen that displays a list of available job postings
 const JobsScreen = ({ navigation }) => {

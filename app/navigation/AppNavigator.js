@@ -4,11 +4,11 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useTheme } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 
-import HomeScreen from '../screens/HomeScreen';
-import JobsScreen from '../screens/JobsScreen';
-import ResultsScreen from '../screens/ResultsScreen';
-import AdmitCardScreen from '../screens/AdmitCardScreen';
-import JobDetailsScreen from '../screens/JobDetailsScreen';
+import HomeScreen from '@screens/HomeScreen';
+import JobsScreen from '@screens/JobsScreen';
+import ResultsScreen from '@screens/ResultsScreen';
+import AdmitCardScreen from '@screens/AdmitCardScreen';
+import JobDetailsScreen from '@screens/JobDetailsScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();

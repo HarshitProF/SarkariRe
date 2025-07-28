@@ -13,7 +13,7 @@ import { useTheme } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import PropTypes from 'prop-types';
 
-import { useJobs } from '../context/JobContext';
+import { useJobs } from '@context/JobContext';
 
 // Job details screen that displays complete information about a job
 const JobDetailsScreen = ({ route }) => {

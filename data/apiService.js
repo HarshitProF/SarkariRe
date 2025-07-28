@@ -1,7 +1,7 @@
 // This file would normally contain actual API calls to a backend server
 // For this demo app, we'll just simulate API calls using the dummy data
 
-import dummyJobs from './dummyJobs';
+import dummyJobs from '@data/dummyJobs';
 
 // Simulated API service for fetching job data
 // In a real app, these functions would make actual API calls

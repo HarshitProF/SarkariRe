@@ -4,9 +4,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import { useColorScheme } from 'react-native';
 
-import AppNavigator from './navigation/AppNavigator';
-import { JobProvider } from './context/JobContext';
-import { darkTheme, lightTheme } from './theme/colors';
+import AppNavigator from '@app/navigation/AppNavigator';
+import { JobProvider } from '@context/JobContext';
+import { darkTheme, lightTheme } from '@theme/colors';
 
 // Root app component that wraps the entire application with providers
 export default function App() {

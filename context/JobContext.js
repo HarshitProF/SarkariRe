@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import dummyJobs from '../data/dummyJobs';
-import { fetchJobs as apiFetchJobs, fetchJobById as apiFetchJobById } from '../data/apiService';
+import dummyJobs from '@data/dummyJobs';
+import { fetchJobs as apiFetchJobs, fetchJobById as apiFetchJobById } from '@data/apiService';
 
 // Create a context for jobs data
 const JobContext = createContext();
